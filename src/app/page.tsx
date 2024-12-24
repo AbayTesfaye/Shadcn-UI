@@ -7,6 +7,7 @@ import MyAspectRatio from "./SHADCN/MyAspectRatio";
 import MyAvatar from "./SHADCN/MyAvatar"; // Make sure to import MyAvatar
 import MyBadge from "./SHADCN/MyBadge";
 import MyBreadCrumb from "./SHADCN/MyBreadCrumb";
+import MyButton from "./SHADCN/MyButton";
 
 export default function Home() {
   const searchParams = useSearchParams();
@@ -23,6 +24,9 @@ export default function Home() {
       <MyBadge variant="destructive" title="Badge1" />
       <MyBadge variant="secondary" title="Badge2" />
       <MyBreadCrumb />
+      <MyButton title="Click me" variant="primary" />
+      <MyButton title="Click here" variant="destructive" />
+
     </div>
   );
 }
