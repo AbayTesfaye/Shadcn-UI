@@ -9,6 +9,7 @@ import MyBadge from "./SHADCN/MyBadge";
 import MyBreadCrumb from "./SHADCN/MyBreadCrumb";
 import MyButton from "./SHADCN/MyButton";
 import MyCalendar from "./SHADCN/MyCalendar";
+import MyCard from "./SHADCN/MyCard";
 
 export default function Home() {
   const searchParams = useSearchParams();
@@ -28,6 +29,7 @@ export default function Home() {
       <MyButton title="Click me" variant="primary" />
       <MyButton title="Click here" variant="destructive" />
       <MyCalendar />
+      <MyCard />
     </div>
   );
 }
