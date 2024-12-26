@@ -10,6 +10,7 @@ import MyBreadCrumb from "./SHADCN/MyBreadCrumb";
 import MyButton from "./SHADCN/MyButton";
 import MyCalendar from "./SHADCN/MyCalendar";
 import MyCard from "./SHADCN/MyCard";
+import MyCarousle from "./SHADCN/MyCarousle";
 
 export default function Home() {
   const searchParams = useSearchParams();
@@ -30,6 +31,7 @@ export default function Home() {
       <MyButton title="Click here" variant="destructive" />
       <MyCalendar />
       <MyCard />
+      <MyCarousle />
     </div>
   );
 }
